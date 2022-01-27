@@ -1,0 +1,71 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  border-radius: 15px;
+  margin: 25px auto;
+  width: 60%;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*---HEADER---*/
+
+header{
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+}
+.logo-text{
+  color: lime;
+  font-family: arial;
+}
+
+/*---Barra di Navigazione---*/
+.nav-bar{
+  background-color: lime;
+  margin: auto;
+  padding: 13px;
+  width: 80%;
+  text-align: center;
+}
+
+
+/*---Parte Centrale---*/
+
+.main-content{
+  color: white;
+  margin: 20px auto;
+  padding: 5px;
+  width: 83%;
+}
+
+.main-text{
+  font-size: 20px;
+}
+
+.barra1{
+  background-color: orange;
+  padding: 15px;
+  width: 33%;
+  margin: 0;
+  border-radius: 8px;
+}
+.barra2{
+  background-color: lime;
+  padding: 15px;
+  width: 64%;
+  margin: 0;
+  border-radius: 8px;
+}
+.barra3{
+  background-color: red;
+  padding: 15px;
+  width: 18%;
+  margin: 0;
+  border-radius: 8px;
+}
